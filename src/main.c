@@ -30,6 +30,11 @@ int main(int argc, char *argv[]){
 	}
 	else {printf("Erreur de parametres");}
 	return 0;
+	else if (strcmp(op, "square") == 0) {
+    r = _square(atof(a));
+    printf("%lf", r);
+}
+
 }
 
 		
